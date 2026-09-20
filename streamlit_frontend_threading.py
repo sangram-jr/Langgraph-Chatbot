@@ -1,3 +1,10 @@
+#state :
+# thread_id => store one particular thread_id in this state
+# chat_threads => store multiple thread_id inside this state
+# message_history => store all the user and ai messages in this state
+
+
+
 import streamlit as st
 from langgraph_backend import chatbot
 from langchain_core.messages import HumanMessage, AIMessage
